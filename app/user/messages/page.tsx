@@ -32,7 +32,9 @@ import { useNotifications } from '@/app/components/providers/NotificationProvide
 
 export default function StudentMessagesPage() {
   return (
+    <Suspense fallback={<div className="h-screen bg-transparent animate-pulse" />}>
       <StudentMessagesContent />
+    </Suspense>
   );
 }
 
