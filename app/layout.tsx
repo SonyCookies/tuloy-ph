@@ -20,6 +20,10 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
   },
+  icons: {
+    icon: "/logo/tuloyicon.png",
+    apple: "/logo/tuloyicon.png",
+  },
 };
 
 export const viewport = {
